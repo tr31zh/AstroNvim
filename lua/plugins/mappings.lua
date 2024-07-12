@@ -45,6 +45,7 @@ return {
             desc = "[T]elescope file [b]rowser",
           },
           ["<leader>Tm"] = { ":Telescope mapper<CR>", desc = "[T]elescope [m]apper" },
+          ["<leader>Tl"] = { "<cmd>lua require('telescope.builtin').live_grep()<cr>", desc = "[T]elescope [l]ive grep" },
           -- Neo Tree
           ["<leader>N"] = { desc = "[N]eo tree" },
           ["<leader>Ng"] = { "<cmd> Neotree git_status<CR>", desc = "[N]eotree [g]it status" },
